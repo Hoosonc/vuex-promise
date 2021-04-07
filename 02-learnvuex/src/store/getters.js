@@ -12,6 +12,9 @@ export default {
     // return function (age){
     //   return state.students.filter(s => s.age >= age)
     // }
-    return age => {return state.students.filter(s => s.age >= age)}
+    return age => {
+      // 这里age就是方法传过来的参数
+      console.log(age);
+      return state.students.filter(s => s.age >= age)}
   }
 }

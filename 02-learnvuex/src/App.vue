@@ -12,6 +12,7 @@
     <button @click="updateInfo">修改信息</button>
     <h2>-----------App组件内容---------</h2>
     <h2>{{$store.state.counter}}</h2>
+    <h2>{{$store.state.students}}</h2>
     <button @click="addition">+</button>
     <button @click="substraction">-</button>
     <button @click="addCount(5)">+5</button>
